@@ -1,0 +1,144 @@
+h2 {
+	color: #2C575E;
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 15px;
+}
+
+#content_porady {
+	margin-left: 30px;
+	width: auto;
+	height: 880px;
+	line-height: 18px;
+
+}
+
+#content_porady_podstrona {
+	margin-left: 30px;
+	width: auto;
+	height: auto;
+	line-height: 18px;
+	float: left;
+
+}
+
+#loc {
+	background-color: #FFFFFF;
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	margin-top: 10px;
+	width: 100%;
+
+}
+
+
+#loc_content {
+	border-bottom-color: #F2F2F2;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-color: #F2F2F2;
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-size: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: auto;
+}
+
+#kiszonka {
+	width: 400px;
+	height: 470px;
+	background-image: url(../img/kiszonka2.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: auto auto;
+	float: right;
+
+}
+
+#awokado {
+	width: 410px;
+	height: 470px;
+	background-image: url(../img/awokado.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: auto auto;
+	float: right;
+
+}
+
+#kasza {
+	width: 400px;
+	height: 470px;
+	background-image: url(../img/kasza.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: auto auto;
+	float: right;
+
+}
+
+#sol {
+	width: 400px;
+	height: 692px;
+	background-image: url(../img/sol.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: auto auto;
+	float: right;
+
+}
+
+#stewia {
+	width: 400px;
+	height: 692px;
+	background-image: url(../img/stewia.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: auto auto;
+	float: right;
+
+}
+
+
+#nowalijki {
+	width: 524px;
+	height: 426px;
+	background-image: url(../img/nowalijki.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: auto auto;
+	float: right;
+
+}
+
+#dzieci_mlodziez {
+	width: 524px;
+	height: 649px;
+	background-image: url(../img/dzieci_mlodziez.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: auto auto;
+	float: right;
+
+}
+
+#truskawkowe_wariacje {
+	width: 524px;
+	height: 1300px;
+	background-image: url(../img/truskawkowe_wariacje2.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: auto auto;
+	float: right;
+
+}
+
