@@ -67,6 +67,9 @@ nav {
 
 .content_start {
 	margin: 20px 10px 10px 30px;
+	background-image: url('../img/limonka.jpg');
+	background-repeat: no-repeat;
+	background-position-x: right;
 }
 
 .me-content {
@@ -127,6 +130,15 @@ footer {
 	color: white;
 	text-align: center;
 	padding: 15px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+	.content_start {
+		margin: 20px 10px 10px 30px;
+		background-image: url('../img/limonkaOpacity.jpg');
+		background-repeat: no-repeat;
+		background-position-x: right;
+	}
 }
 
 @media screen and (max-width: 800px) {
