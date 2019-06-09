@@ -6,6 +6,7 @@ body {
 	font-size: 14px;
 	font-family: Arial, Tahoma, Geneva, sans-serif;
 	line-height: 20px;
+	margin: 0px 5vw;
 }
 
 header {
@@ -30,14 +31,13 @@ nav {
 .menu-ref {
 	font-size: 16px;
 	font-family: arial;
-	font-weight: 600;
 	padding: 1.5vw;
 	text-decoration: none;
 	color: white;
 }
 
 .active {
-	background-color: #465e2cc2;
+	background-color: #2b673b;
 	font-size: 16px;
 	font-family: arial;
 	font-weight: 600;
