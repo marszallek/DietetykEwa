@@ -149,10 +149,6 @@ body {
         color: #595959;
     }
 
-    a {
-        text-decoration: none;
-    }
-
     footer {
         background-color: #85c900;
         color: white;
@@ -186,16 +182,10 @@ body {
         clear: both;
         transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
         max-height: 0;
+    }
 
-        .active .menu-ref {
-            padding: 5vw;
-        }
-
-        .menu-ref:hover,
-        .menu-btn:hover {
-            background-color: #f4f4f4;
-        }
-
+    .active .menu-ref {
+        padding: 5vw;
     }
 
     .vessel {
@@ -204,6 +194,11 @@ body {
 
     .content_advices {
         margin: 20px 10px;
+    }
+
+    .menu-ref:hover,
+    .menu-btn:hover {
+        background-color: #f4f4f4;
     }
 
     .content-start,
@@ -218,7 +213,7 @@ body {
         background-size: contain;
     }
 
-    /* menu icon hamburger */
+    /* menu icon */
 
     header .menu-icon {
         cursor: pointer;

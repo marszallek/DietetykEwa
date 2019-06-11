@@ -1,263 +1,295 @@
 * {
-  margin: 0;
+	margin: 0;
 }
 
 body {
-  font-size: 14px;
-  font-family: Arial, Tahoma, Geneva, sans-serif;
-  line-height: 20px;
-  margin: 0px 2vw;
+	font-size: 14px;
+	font-family: Arial, Tahoma, Geneva, sans-serif;
+	line-height: 20px;
+	margin: 0px 2vw;
 }
-body header {
-  overflow: auto;
+
+header {
+	overflow: auto;
 }
-body header .logo {
-  float: left;
-  width: 30vw;
-  min-width: 160px;
-  max-width: 250px;
+
+article {
+	padding-top: 30px;
 }
-body header .menu-icon,
-body header .menu-btn {
-  display: none;
+
+.logo {
+	float: left;
+	width: 30vw;
+	min-width: 160px;
+	max-width: 250px;
 }
-body header nav {
-  margin-top: 50px;
-  background-color: #85c900;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+
+nav {
+	margin-top: 50px;
+	background-color: #85c900;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
-body header nav .menu-ref {
-  font-size: 16px;
-  padding: 1.5vw;
-  text-decoration: none;
-  color: white;
+
+.menu-ref {
+	font-size: 16px;
+	font-family: arial;
+	padding: 1.5vw;
+	text-decoration: none;
+	color: white;
 }
-body header nav .active {
-  background-color: #2b673b;
-  font-size: 16px;
-  font-family: arial;
-  font-weight: 600;
-  padding: 1.5vw;
-  text-decoration: none;
-  color: white;
+
+.active {
+	background-color: #2b673b;
+	font-size: 16px;
+	font-family: arial;
+	font-weight: 600;
+	padding: 1.5vw;
+	text-decoration: none;
+	color: white;
 }
-body article {
-  padding-top: 30px;
+
+.menu-icon,
+.menu-btn {
+	display: none;
 }
-body .vessel {
-  width: 34vw;
-  min-width: 150px;
-  max-width: 350px;
-  float: right;
+
+.vessel {
+	width: 34vw;
+	min-width: 150px;
+	max-width: 350px;
+	float: right;
 }
-body .content-start {
-  margin: 20px 3vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../img/limonkaOpacity.jpg);
+
+.content-start {
+	margin: 20px 3vw;
+	background-image: url(../img/limonkaOpacity.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
-body .me-content {
-  margin: 50px 30px 10vw 10px;
+
+.me-content {
+	margin: 50px 30px 10vw 10px;
 }
-body .advices {
-  display: grid;
-  grid-row-gap: 20px;
-  margin: 20px 3vw;
+
+.advices {
+	display: grid;
+	grid-row-gap: 20px;
+	margin: 20px 3vw;
 }
-body .avocado {
-  margin: 20px 3vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../img/awokado.jpg);
+
+.avocado {
+	margin: 20px 3vw;
+	background-image: url(../img/awokado.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
-body .groat {
-  margin: 20px 3vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../img/kasza.jpg);
+
+.groat {
+	margin: 20px 3vw;
+	background-image: url(../img/kasza.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
-body .ferment {
-  margin: 20px 3vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../img/kiszonka2.jpg);
+
+.ferment {
+	margin: 20px 3vw;
+	background-image: url(../img/kiszonka2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
-body .vegs {
-  margin: 20px 3vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../img/nowalijki.jpg);
+
+.vegs {
+	margin: 20px 3vw;
+	background-image: url(../img/nowalijki.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
-body .salt {
-  margin: 20px 3vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../img/sol.jpg);
+
+.salt {
+	margin: 20px 3vw;
+	background-image: url(../img/sol.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
-body .sugar {
-  margin: 20px 3vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../img/stewia.jpg);
+
+.sugar {
+	margin: 20px 3vw;
+	background-image: url(../img/stewia.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
-body .strawberry {
-  margin: 20px 3vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../img/truskawkowe_wariacje2.jpg);
+
+.strawberry {
+	margin: 20px 3vw;
+	background-image: url(../img/truskawkowe_wariacje2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
-body .kids {
-  margin: 20px 3vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../img/dzieci_mlodziez.jpg);
+
+.kids {
+	margin: 20px 3vw;
+	background-image: url(../img/dzieci_mlodziez.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
-body .left {
-  float: left;
+
+.left {
+	float: left;
 }
-body .red_link {
-  color: #ef1505;
-  float: right;
+
+.red_link {
+	color: #ef1505;
+	float: right;
 }
-body .green_link {
-  color: #85c900;
-  float: right;
+
+.green_link {
+	color: #85c900;
+	float: right;
 }
-body .green {
-  color: #85c900;
+
+.green {
+	color: #85c900;
 }
-body .red {
-  color: #ec0122;
+
+.red {
+	color: #ec0122;
 }
-body .grey {
-  color: #595959;
+
+.grey {
+	color: #595959;
 }
-body a {
-  text-decoration: none;
+
+footer {
+	background-color: #85c900;
+	color: white;
+	text-align: center;
+	padding: 15px 0px;
 }
-body footer {
-  background-color: #85c900;
-  color: white;
-  text-align: center;
-  padding: 15px 0px;
+
+a {
+	text-decoration: none;
 }
 
 @media screen and (max-width: 800px) {
-  nav {
-    margin-top: 7vw;
-  }
+	nav{
+		margin-top: 7vw;
+	}
 
-  .vessel {
-    width: 40vw;
-  }
+	.vessel {
+		width: 40vw;
+	}
 }
+
 /* HAMBURGER */
+
 @media screen and (max-width: 700px) {
-  nav {
-    overflow: hidden;
-    background-color: #85c900;
-    margin-top: 4vw;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    /*For Hamburger */
-    clear: both;
-    transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
-    max-height: 0;
-  }
-  nav .active .menu-ref {
-    padding: 5vw;
-  }
-  nav .menu-ref:hover,
-nav .menu-btn:hover {
-    background-color: #f4f4f4;
-  }
+	nav {
+		overflow: hidden;
+		background-color: #85c900;
+		margin-top: 4vw;
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		/*For Hamburger */
+		clear: both;
+		transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
+		max-height: 0;
+	}
 
-  .vessel {
-    width: 60vw;
-  }
+	.active .menu-ref {
+		padding: 5vw;
+	}
 
-  .content_advices {
-    margin: 20px 10px;
-  }
+	.vessel {
+		width: 60vw;
+	}
 
-  .content-start,
-.avocado,
-.groat,
-.ferment,
-.vegs,
-.salt,
-.sugar,
-.strawberry,
-.kids {
-    background-size: contain;
-  }
+	.content_advices {
+		margin: 20px 10px;
+	}
 
-  /* menu icon hamburger */
-  header .menu-icon {
-    cursor: pointer;
-    display: block;
-    float: right;
-    padding: 28px 20px;
-    position: relative;
-    user-select: none;
-  }
+	.menu-ref:hover,
+	.menu-btn:hover {
+		background-color: #f4f4f4;
+	}
 
-  header .menu-icon .navicon {
-    background: #333;
-    display: block;
-    height: 2px;
-    position: relative;
-    transition: 0.2s ease-out;
-    width: 18px;
-  }
+	.content-start,
+	.avocado,
+	.groat,
+	.ferment,
+	.vegs,
+	.salt,
+	.sugar,
+	.strawberry,
+	.kids {
+		background-size: contain;
+	}
 
-  header .menu-icon .navicon:before,
-header .menu-icon .navicon:after {
-    background: #333;
-    content: "";
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all 0.2s ease-out;
-    width: 100%;
-  }
+	/* menu icon */
 
-  header .menu-icon .navicon:before {
-    top: 5px;
-  }
+	header .menu-icon {
+		cursor: pointer;
+		display: block;
+		float: right;
+		padding: 28px 20px;
+		position: relative;
+		user-select: none;
+	}
 
-  header .menu-icon .navicon:after {
-    top: -5px;
-  }
+	header .menu-icon .navicon {
+		background: #333;
+		display: block;
+		height: 2px;
+		position: relative;
+		transition: .2s ease-out;
+		width: 18px;
+	}
 
-  /* menu btn */
-  header .menu-btn {
-    display: none;
-  }
+	header .menu-icon .navicon:before,
+	header .menu-icon .navicon:after {
+		background: #333;
+		content: '';
+		display: block;
+		height: 100%;
+		position: absolute;
+		transition: all .2s ease-out;
+		width: 100%;
+	}
 
-  header .menu-btn:checked ~ .menu {
-    max-height: 240px;
-  }
+	header .menu-icon .navicon:before {
+		top: 5px;
+	}
 
-  header .menu-btn:checked ~ .menu-icon .navicon {
-    background: transparent;
-  }
+	header .menu-icon .navicon:after {
+		top: -5px;
+	}
 
-  header .menu-btn:checked ~ .menu-icon .navicon:before {
-    transform: rotate(-45deg);
-  }
+	/* menu btn */
 
-  header .menu-btn:checked ~ .menu-icon .navicon:after {
-    transform: rotate(45deg);
-  }
+	header .menu-btn {
+		display: none;
+	}
 
-  header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-    top: 0;
-  }
+	header .menu-btn:checked~.menu {
+		max-height: 240px;
+	}
+
+	header .menu-btn:checked~.menu-icon .navicon {
+		background: transparent;
+	}
+
+	header .menu-btn:checked~.menu-icon .navicon:before {
+		transform: rotate(-45deg);
+	}
+
+	header .menu-btn:checked~.menu-icon .navicon:after {
+		transform: rotate(45deg);
+	}
+
+	header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+	header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+		top: 0;
+	}
 }
-
-/*# sourceMappingURL=style.css.map */
